@@ -1,0 +1,553 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,700';
+
+@font-face {
+	  font-family: "icons";
+	  src: url("../images/font/flaticon.eot");
+	  src: url("../images/font/flaticon.eot?#iefix") format("embedded-opentype"),
+	  url("../images/font/flaticon.woff") format("woff"),
+	  url("../images/font/flaticon.ttf") format("truetype"),
+	  url("../images/font/flaticon.svg#3iNewsFont") format("svg");
+	  font-weight: normal;
+	  font-style: normal;
+}
+
+
+* {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.off {
+	display: none;
+}
+
+.mainCont {
+	width: 1000px;
+}
+
+h1 {
+	color: #fff;
+	font-weight: 700;
+	font-family: Roboto;
+	margin-bottom: 21px;
+	margin-top: 63px;
+	text-align: center;
+}
+
+.whiteText {
+	color: #fff;
+}
+
+section, header {
+	display: table;
+	padding: 42px 0;
+	width: 100%;
+}
+
+.blueStroke:after {
+	background: #0199e6;
+	content: '';
+	display: block;
+	height: 3px;
+	margin: 21px auto 42px;
+	width: 100px;
+}
+
+.blueStroke_small:after {
+	height: 1px;
+	margin: 21px auto;
+}
+
+.btn {
+	border: 0;
+	text-transform: uppercase;
+	transition: 300ms linear;
+	-moz-transition: 300ms linear;
+	-webkit-transition: 300ms linear;
+}
+
+.btn_blue {
+	background: #0199e6;
+    color: #fff;
+}
+
+.btn_medium {
+	line-height: 42px;
+    padding: 0 20px;
+}
+
+.btn_small {
+	line-height: 42px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	color: #fff;
+	outline: 0;
+}
+
+.btn:hover {
+	background: #006ca2;
+}
+
+.btn:active {
+	background: #0199e6;
+	box-shadow: 0 0 0 #000;
+}
+
+.btn:focus:active {
+	outline: 0;
+}
+
+/* ШАПКА */
+
+header {
+	background: url('../images/header_back_xs.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+header .logo {
+    max-width: 250px;
+}
+
+header .logo, header .phones {
+	padding: 20px 0;
+}
+
+header .phones {
+	color: #fff;
+	text-align: right;
+}
+
+header .phones div {
+	font-size: 21px;
+}
+
+header .phones span {
+	font-size: 16px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+header .phones div:first-child {
+	margin-bottom: 12px;
+}
+
+header .description {
+	color: #fff;
+	font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 21px;
+	text-align: center;
+}
+
+header .action {
+	color: #fff;
+	font-size: 21px;
+	margin-bottom: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header .actionButton {
+	margin-bottom: 84px;
+}
+
+
+/* блоки */
+
+.service {
+	padding: 42px 0 0;
+}
+
+.greyBlock {
+	background: #f7f8fa;
+	border-bottom: 1px solid #ced2db;
+	border-radius: 4px;
+	padding: 30px;
+	margin-bottom: 42px;
+}
+
+.greyBlock__title {
+	font-size: 21px;
+	font-weight: 700;
+	margin-bottom: 21px;
+}
+
+.greyBlock__text {	
+	font-weight: 300;
+	margin-bottom: 21px;
+	min-height: 147px;
+}
+
+.greyBlock__price {
+	font-size: 21px;
+	font-weight: 700;
+	margin-bottom: 21px;
+}
+
+
+/* Большая форма */
+.bigForma, .smallForma {
+	background: url('../images/back_renault_xs.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.formBig {
+	background: #fff;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.formBig__title {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.formBig__label {
+	margin-bottom: 21px;
+	padding: 0 14px;
+}
+
+.formBig__label:last-child {
+	margin-bottom: 0;
+}	
+
+.formBig__label>input {
+	width: 100%;
+}
+
+.formBig__label>input[type='text'] {
+	background: #fbfbfb;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    color: #848484;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.formText {
+	padding: 10px 0 10px 63px;
+}
+
+.formText__item {
+	border-left: 4px solid #fff;
+	color: #fff;
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 42px;
+    margin-bottom: 42px;
+    padding-left: 20px;
+}
+
+.formText__item_big {
+	border: 1px solid #fff;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0;
+    padding: 21px;
+}
+
+
+
+/* Блок с заголовками */
+
+.what {
+	padding: 42px 0 0;
+}
+
+.textBlock {
+	margin-bottom: 42px;
+}
+
+.textBlock__icon {
+	color: #0199e6;
+	font-family: "icons";
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 21px;
+}
+
+.textBlock__icon_time:before {
+	content: "\f104";
+}
+
+.textBlock__icon_men:before {
+	content: "\f100";
+}
+
+.textBlock__icon_shield:before {
+	content: "\f103";
+}
+
+.textBlock__icon_settings:before {
+	content: "\f105";
+}
+
+.textBlock__icon_docs:before {
+	content: "\f101";
+}
+
+.textBlock__icon_money:before {
+	content: "\f102";
+}
+
+
+.textBlock__title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.textBlock__subTitle {
+	color: #0199e6;
+	font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+
+.gift {
+	background: url('../images/back_group_xs.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+
+.whiteBlock {
+	background: #fff;
+    padding: 30px;
+}
+
+.whiteBlock__title p {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.whiteBlock__text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+}
+
+
+.formaSmall {
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.formaSmall__label {
+	display: inline-block;
+	margin-right: 15px;
+}    
+
+.formaSmall__label:last-child {
+	margin-right: 0;
+}	
+
+.formaSmall__label>input[type='text'] {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	max-width: 150px;
+    padding: 9px;
+    text-align: center;
+}
+
+.answer {
+    padding: 42px 0 0;
+}
+
+.answerWrap {
+	margin-bottom: 42px;
+}
+
+.answerTitle {
+	font-weight: bold;
+    font-size: 16px;
+    height: 63px;
+    margin-bottom: 21px;
+}
+
+.answerBlock {
+	background: #f7f8fa;
+    border-bottom: 2px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-radius: 5px;
+    color: #545454;
+	display: table-cell;
+	font-style: italic;
+    font-weight: 300;
+    height: 230px;
+    padding: 20px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.answerBlock:before {
+	content: '▲';
+    color: #f7f8fa;
+    font-style: normal;
+    font-size: 21px;
+    left: 50%;
+    margin-left: -16px;
+    top: -16px;
+    position: absolute;
+}
+
+.answerQuote {
+	background: #fff;
+	border: 1px solid #ccc;
+    border-radius: 8px;
+    bottom: -20px;
+    height: 40px;
+    left: 50%;
+    margin-left: -25px;
+    padding: 5px;
+	position: absolute;
+    width: 40px;
+}
+
+.answerQuote>span {
+	background: #0199e6;
+	border-radius: 4px;
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.answerQuote>span:after {
+	content: '\02EE';
+	color: #fff;
+    font-size: 42px;
+    left: 8px;
+    position: absolute;
+    top: 19px;
+    font-family: Arial;
+}
+
+.uk-accordion-title {
+	margin-bottom: 21px;
+}
+
+.accordionBtnText:after {
+	content: 'Показать еще';
+}
+
+.accordionBtnText.uk-active:after {
+	content: 'Скрыть';
+}
+
+.footer {
+	background: #f7f8fa;
+}
+
+.footer img {
+	max-width: 250px;
+	margin-bottom: 21px;
+}
+
+.agency {
+	margin-top: 21px;
+}
+
+.agency span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.agency span:first-child {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.agency a {
+    color: #0199e6;
+}
+
+
+
+@media only screen and (min-width: 421px) {
+	header {
+		background: url('../images/header_back_s.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bigForma, .smallForma {
+		background: url('../images/back_renault_s.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.gift {
+		background: url('../images/back_group_s.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	header {
+		background: url('../images/header_back_m.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bigForma, .smallForma {
+		background: url('../images/back_renault_m.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.gift {
+		background: url('../images/back_group_m.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	header {
+		background: url('../images/header_back_l.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bigForma, .smallForma {
+		background: url('../images/back_renault_l.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.gift {
+		background: url('../images/back_group_l.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
